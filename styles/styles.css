@@ -1,0 +1,383 @@
+section {
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+height: 100vh;
+
+}
+.flex-container-one {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    left: 98px;
+    top: 90px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px 15px 15px 15px;
+    border-style: double;
+    background: orange; 
+    display: flex;
+    align-items: flex-end;
+}
+.box-one {
+    background: orangered;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+.box-two {
+    background: yellowgreen;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+.box-three {
+    background: steelblue;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+<!--How do i make this work-->
+flex-container > div {
+    display: flex;
+    justify-content: flex-start;  
+}
+
+.flex-container-two {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    left: 98px;
+    top: 90px;
+    border: 5px solid black;
+    border-radius: 15px 15px 15px 15px;
+    border-style: double;
+    background: orange;
+    display: flex;
+    justify-content: center;
+}
+.stack-one {
+    background: orangered;
+    margin: 10px;
+    padding: 10px;
+    height: 125px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+.stack-two {
+    background: orangered;
+    margin: 10px;
+    padding: 10px;
+    height: 125px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+.stack-three {
+    background: orangered;
+    margin: 10px;
+    padding: 10px;
+    height: 125px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.flex-container-three {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    left: 98px;
+    top: 90px;
+    border: 5px solid black;
+    border-radius: 15px 15px 15px 15px;
+    border-style: double;
+    background: orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.box-four {
+    background: steelblue;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+.box-five {
+    background: steelblue;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+.box-six {
+    background: steelblue;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.flex-container-four {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    left: 98px;
+    top: 90px;
+    border: 5px solid black;
+    border-radius: 15px 15px 15px 15px;
+    border-style: double;
+    background: orange;
+    display: flex;
+    justify-content: space-between;
+}
+.box-seven {
+    background: steelblue;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+.box-eight {
+    background: steelblue;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+.box-nine {
+    background: steelblue;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    align-items:unset;
+
+}
+<!--if i put in baseline in align-items, 
+the objects does not align with the assignment, 
+either the text or the objects does not align-->
+
+.flex-container-five {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    left: 98px;
+    top: 90px;
+    border: 5px solid black;
+    border-radius: 15px 15px 15px 15px;
+    border-style: double;
+    background: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.stack-four {
+    background: orangered;
+    margin: 10px;
+    padding: 10px;
+    height: 125px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+.box-ten {
+    background: steelblue;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+.stack-five {
+    background: orangered;
+    margin: 10px;
+    padding: 10px;
+    height: 125px; 
+    width: 65px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.flex-container-six {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    left: 98px;
+    top: 90px;
+    border: 5px solid black;
+    border-radius: 15px 15px 15px 15px;
+    border-style: double;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-eleven {
+    background: steelblue;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    border-radius: 15px 15px 15px 15px;
+    width: 65px;
+    width: 3.5vw;
+
+}
+.stack-side {
+    background: orangered;
+    margin: 10px;
+    padding: 10px;
+    height: 65px; 
+    border-radius: 15px 15px 15px 15px;
+    width: 65px;
+    display: flex;
+    width: 10vw;
+    flex-grow: 0.6;
+}
+.box-twelve {
+    background: steelblue;
+    margin: 10px;
+    padding: 10px;
+    height: 65px;
+    border-radius: 15px 15px 15px 15px;
+    width: 65px;
+    width: 3.5vw;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+<!-- I Paused here because that i could 
+not get the circles to wrap as 
+it did in the assignment, 
+i think it would help if i understood nesting-->
+
+.flex-container-seven {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    height: 20vh;
+    left: 98px;
+    top: 90px;
+    border: 5px solid rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.circle-one {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+}
+.circle-two {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+}
+.circle-three {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+}
+.circle-four {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+}
+.circle-five {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+}
+
+.flex-container-eight {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    height: 20vh;
+    left: 98px;
+    top: 90px;
+    border: 5px solid rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.circle-six {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle-seven {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+}
+.circle-eight {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+}
+.circle-nine {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+}
+.circle-ten {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: flex;
+}
